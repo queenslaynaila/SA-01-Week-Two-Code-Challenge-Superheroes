@@ -28,7 +28,7 @@ Power model:
 # Routes
 ## GET /heroes
 Return sample
-
+```
 [
 
 { "id": 1, "name": "Kamala Khan", "super_name": "Ms. Marvel" },
@@ -38,8 +38,10 @@ Return sample
 { "id": 3, "name": "Gwen Stacy", "super_name": "Spider-Gwen" }
 
 ]
+```
 ## GET /heroes/:id
 if hero exist,sample return data
+```
   {
 
   "id": 1,
@@ -59,6 +61,7 @@ if hero exist,sample return data
       "description": "gives the wielder super-human strengths"
 
     }
+  ```
 if hero does not exist return
 
     {   "error": "Hero not found" }
