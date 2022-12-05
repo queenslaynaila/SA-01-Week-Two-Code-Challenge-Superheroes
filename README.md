@@ -70,7 +70,7 @@ if hero does not exist return
 ## GET /powers
 
 Return JSON data in the format below:
-
+```
 [
 
   {
@@ -94,6 +94,7 @@ Return JSON data in the format below:
   }
 
 ]
+```
 
 ## GET /powers/:id
 
